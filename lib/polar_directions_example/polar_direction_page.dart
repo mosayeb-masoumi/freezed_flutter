@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:freeze_example/polar_directions_exmple/directions.dart';
+import 'package:freeze_example/polar_directions_example/directions.dart';
 
 class PolarDirectionPage extends StatefulWidget {
   const PolarDirectionPage({super.key});

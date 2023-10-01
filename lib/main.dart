@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:freeze_example/di.dart';
 import 'package:freeze_example/bloc_freezed/home_page.dart';
-import 'package:freeze_example/polar_directions_exmple/plar_direction_page.dart';
+import 'package:freeze_example/polar_directions_example/polar_direction_page.dart';
 import 'package:freeze_example/sealed_freezed_example/sealed_page.dart';
 
 void main() {
