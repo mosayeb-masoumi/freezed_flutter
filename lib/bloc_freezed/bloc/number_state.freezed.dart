@@ -113,7 +113,7 @@ class _$NumberInitialImpl implements NumberInitial {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType && other is _$NumberInitialImpl);
   }
@@ -227,7 +227,7 @@ class _$NumberLoadingImpl implements NumberLoading {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType && other is _$NumberLoadingImpl);
   }
@@ -359,7 +359,7 @@ class _$NumberLoadedImpl implements NumberLoaded {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$NumberLoadedImpl &&
@@ -504,7 +504,7 @@ class _$NumberErrorImpl implements NumberError {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$NumberErrorImpl &&

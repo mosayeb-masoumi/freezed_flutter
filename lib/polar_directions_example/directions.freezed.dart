@@ -152,7 +152,7 @@ class _$NorthImpl implements North {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$NorthImpl &&
@@ -301,7 +301,7 @@ class _$SouthImpl implements South {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$SouthImpl &&
@@ -449,7 +449,7 @@ class _$EastImpl implements East {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$EastImpl &&
@@ -597,7 +597,7 @@ class _$WestImpl implements West {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$WestImpl &&

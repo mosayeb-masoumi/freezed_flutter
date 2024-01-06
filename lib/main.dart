@@ -4,6 +4,8 @@ import 'package:freeze_example/bloc_freezed/home_page.dart';
 import 'package:freeze_example/polar_directions_example/polar_direction_page.dart';
 import 'package:freeze_example/sealed_freezed_example/sealed_page.dart';
 
+import 'server_model_example/server_screen.dart';
+
 void main() {
   setUp();
   runApp(const MyApp());
@@ -25,7 +27,8 @@ class MyApp extends StatelessWidget {
       ),
       // home: const HomePage(),
       // home: const SealedPage(),
-      home: const PolarDirectionPage(),
+      // home: const PolarDirectionPage(),
+      home: const ServerScreen(),
     );
   }
 }
